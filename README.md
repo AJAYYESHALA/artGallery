@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 In this project, we will build a Spring Boot application to serve as the backend for the 'Art Gallery' platform. 'Art Gallery' is a digital space where art enthusiasts can delve deep into the world of art pieces, their creators, and the galleries that showcase them.
 
 Within 'Art Gallery', there are three key entities: `Art`, `Artist`, and `Gallery`. The `Art` entity establishes a Many-to-One relationship with the `Artist`, signifying that an artist can create multiple art pieces, but each art piece is associated with a single artist. Additionally, the `Artist` entity forms a Many-to-Many relationship with the `Gallery` entity, indicating that an artist can exhibit their artworks in multiple galleries, and similarly, a gallery can showcase works from multiple artists.
@@ -891,3 +892,6 @@ Returns the artist of art based on the `artId`. If the given `artId` is not foun
 </details>
 
 **Do not modify the code in `ArtGalleryApplication.java`**
+=======
+# artGallery
+>>>>>>> 9a2beed3aef2f810a43cbc69e0f5c0482f73764d
